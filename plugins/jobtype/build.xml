@@ -71,7 +71,7 @@
 		</copy-->
 		
 		<javac fork="true" destdir="${dist.classes.dir}"
-			target="1.7" debug="true" deprecation="false" failonerror="true">
+			target="1.8" debug="true" deprecation="false" failonerror="true">
 			<src path="${java.src.dir}" />
 			<src path="${hadoopsecuritymanager-common.java.src.dir}" />
 
